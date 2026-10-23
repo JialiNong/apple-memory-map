@@ -1,0 +1,22 @@
+# Xcode project is generated from project.yml by XcodeGen
+*.xcodeproj
+*.xcworkspace
+!*.xcodeproj/project.xcworkspace
+
+# Generated Info.plist (XcodeGen writes it from project.yml)
+MemoryMap/Info.plist
+
+# Xcode
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
